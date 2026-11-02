@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
+# Automatically detect text files
 * text=auto
+
+# Preserve LF line endings for Python scripts
+*.py text eol=lf

@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use VAFI, please cite this software."
+title: "VAFI: Venus Atmospheric Flash Investigator"
+type: software
+authors:
+  - family-names: "Carbognani"
+    given-names: "Albino"
+version: "1.0.0"
+repository-code: "https://github.com/AlbinoCarbo/VAFI"
