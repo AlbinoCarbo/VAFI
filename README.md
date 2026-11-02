@@ -21,7 +21,7 @@ py -m pip install -r requirements.txt
 ## Fireball detection
 
 ```bash
-py venus_alfi_detector_v7.py --help
+py VAFI_v7.py --help
 ```
 
 ## Synthetic fireball generator
