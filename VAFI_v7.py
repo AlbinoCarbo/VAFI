@@ -135,7 +135,7 @@ Configuration			Expected behavior
 
 EXAMPLE:
     Create the manual mask for Venus:
-    py VAFI_v7.py --input "D:\Venus\BMP" --output "D:\Venus\MaskPreview_BMP" --start-utc 2026-07-05T18:00:00 --plate-scale 0.1 --mask-mode phase --preview-only
+    py VAFI_v7.py --input "D:\Venus\BMP" --output "D:\Venus\MaskPreview_BMP" --start-utc 2026-07-05T18:00:00 --plate-scale 0.1 --mask-mode manual --preview-only
 
     Use the manual mask:
     py VAFI_v7.py --input "D:\Venus\BMP" --output "D:\Venus\results" --start-utc 2026-07-05T18:00:00 --cadence 0.0302 --plate-scale 0.1 --mask-mode manual --manual-config "D:\Venus\MaskPreview_BMP\manual_mask_geometry.json" --spatial-scales 1,2,3 --time-scales 1,2,3 --N 1.5 --M 2 --min-psf-pixels 15
